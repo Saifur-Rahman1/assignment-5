@@ -45,7 +45,7 @@ function getMealList() {
 
         // when didnot find meal
       } else {
-        html = "Sorry, we didn't find the meal!";
+        html = "Sorry, We didn't have this type of meal!";
         mealList.classList.add('notFound');
       }
       mealList.innerHTML = html;
