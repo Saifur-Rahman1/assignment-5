@@ -1,12 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Food panda</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    
+  <div class="container">
+
+    <div class="meal-wrapper">
+
+      <div class="meal-search">
+        <h2 class="title">Gourmet We</h2>
+        <div class="meal-search-box">
+          <input type="text" class="search-control" placeholder="Search for meal" id="search-input">
+          <button type="submit" class="search-btn btn" id="search-btn">Search</button>
+        </div>
+      </div>
+
+      <div class="meal-result">
+        <h2 class="title">Your choice:</h2>
+        <div id="meal"></div>
+      </div>
+
+      <div class="meal-details">
+        <button type="button" class="btn recipe-close-btn" id="recipe-close-btn">
+          <i class="fas fa-times"></i>
+        </button>
+        <div class="meal-details-content"></div>
+      </div>
+
+    </div>
+
+  </div>
+
+  <script src="main.js"></script>
 </body>
+
 </html>
